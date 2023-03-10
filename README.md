@@ -1,0 +1,1 @@
+Ссылка на задеплоенное приложение https://constructor-calculator.web.app/
