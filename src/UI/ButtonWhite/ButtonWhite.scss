@@ -1,0 +1,16 @@
+.button_white {
+    flex: 1 1 auto;
+    height: 48px;
+    background: #FFFFFF;
+    outline: 1px solid #E2E3E5;
+    border-radius: 6px;
+    &:hover {
+        outline: 2px solid #5D5FEF;
+        background-color: #5D5FEF;
+        color: white;
+    }
+    &.long {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

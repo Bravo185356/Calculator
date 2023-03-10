@@ -1,0 +1,1 @@
+export const draggableItems = ["INPUT", "OPERATION_BLOCK", "NUMBERS_BLOCK", "CALC_BUTTON"];

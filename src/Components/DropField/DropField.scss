@@ -1,0 +1,34 @@
+.constructor-block {
+    width: 243px;
+    height: 480px;
+    border: 2px dashed #C4C4C4;
+    border-radius: 6px;
+    &.non-empty {
+        border: none;
+    }
+}
+.drop-here-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    &_blue {
+        display: block;
+        color: #5D5FEF;
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 12px;
+    }
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.light {
+    background-color: #F0F9FF;
+}
